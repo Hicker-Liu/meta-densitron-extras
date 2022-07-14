@@ -1,0 +1,1 @@
+PREFERRED_VERSION_python3-s-tui = "1.1.1"

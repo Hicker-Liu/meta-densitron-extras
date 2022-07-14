@@ -1,0 +1,2 @@
+ACTION=="add", SUBSYSTEM=="graphics", KERNEL=="fb1", RUN+="/usr/bin/fbi -d /dev/fb1 -a -T 7 /usr/share/densitron/quixant.png"
+ACTION=="change", SUBSYSTEM=="graphics", KERNEL=="fb1", RUN+="/usr/bin/fbi -d /dev/fb1 -a -T 7 /usr/share/densitron/quixant.png"
